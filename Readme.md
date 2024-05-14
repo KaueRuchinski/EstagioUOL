@@ -48,12 +48,12 @@ A equipe era compostas por : Enzo Rossi, Beatriz Azevedo Bicalho, Kaue Humenhuk 
 ### Antes de entendermos como um QA (Quality Assurance) precisamos entender o significado da palavra qualidade.
 
 
-**O que é Qualidade?**
+### **O que é Qualidade?**
 
 Entre as várias definições de qualidade de software, podemos dizer que o conceito trata da capacidade de um produto digital satisfazer as necessidades declaradas e implícitas quando usado sob condições especificadas.
 
 
-**Qual o papel do QA e como ele pode gerar a qualidade nos projetos?**
+### **Qual o papel do QA e como ele pode gerar a qualidade nos projetos?**
 
 O QA trabalha com os aprendizados, não focando apenas na melhora do produto em si, mas sim na melhora do processo, foca em todas as etapas que podem ocorrer melhorias para aumentar a qualidade do processo. Sendo assim, ele é o responsável por avaliar o produto, se o mesmo corresponde às especificações do cliente e atende as necessidades do usuário, observa se o que foi conversado durante as reuniões foi colocado em prática, se está seguindo a documentação e a história que foi criada.
 
@@ -71,7 +71,7 @@ O ideal para gerar qualidade seriam os testes acompanharem de forma constante ca
 Como já introduzido anteriormente, a qualidade de um produto é um objetivo do processo de desenvolvimento. Assim, ao desenvolver-se um produto digital, é preciso ter previamente estabelecidas as características de qualidade que se deseja alcançar. 
 
 
-**Exemplo para garantir qualidade num projeto de software**
+### **Exemplo para garantir qualidade num projeto de software**
 
 Por definição, modelo de qualidade é o conjunto definido de características, categorias de atributos de qualidade de software, e relações entre elas. Essa arquitetura fornece a estrutura para especificar os requisitos de qualidade e avaliá-los.
 
@@ -87,7 +87,7 @@ A ISO/IEC 25010 é um padrão ISO para qualidade de software, disponibilizada em
 ●	Portabilidade
 
 
-**Como seria a aplicação em um cenário real:**
+### **Como seria a aplicação em um cenário real:**
 
 Utilizando a área de Administração como exemplo, o time pode gerar qualidade priorizando as tarefas mais importantes para a empresa. Para essa priorização pode ser utilizado o conceito da Matriz de Eisenhower. 
 
