@@ -92,8 +92,11 @@ A ISO/IEC 25010 é um padrão ISO para qualidade de software, disponibilizada em
 Utilizando a área de Administração como exemplo, o time pode gerar qualidade priorizando as tarefas mais importantes para a empresa. Para essa priorização pode ser utilizado o conceito da Matriz de Eisenhower. 
 
 **Importante e Urgente:** Falha no envio do arquivo de remessa de cobrança bancária
-**Importante e Não Urgente:** Ausência de uma informação em um relatório 
+
+**Importante e Não Urgente:** Ausência de uma informação em um relatório
+
 **Urgente e Não Importante:** Responder a ligações irrelevantes 
+
 **Não Urgente e Não Importante:** Sugestão de inclusão de informação em um recurso pouco utilizado 
 
 Utilizando o varejo como exemplo, o QA pode garantir que no período da Black Friday o produto não sofra com instabilidades e incompatibilidades relacionadas ao seu desempenho. 
