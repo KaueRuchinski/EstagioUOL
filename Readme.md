@@ -101,3 +101,75 @@ Utilizando a área de Administração como exemplo, o time pode gerar qualidade 
 
 Utilizando o varejo como exemplo, o QA pode garantir que no período da Black Friday o produto não sofra com instabilidades e incompatibilidades relacionadas ao seu desempenho. 
 Conclui-se então que o QA em um projeto é fundamental para assegurar que o produto final atenda aos requisitos dos clientes, seja funcional, confiável e de alta qualidade. Ao estabelecer requisitos claros, planejar com antecedência, realizar testes e revisões regulares, envolver as partes interessadas, aprender com os erros e utilizar ferramentas de automação, a equipe de desenvolvimento pode garantir que o projeto seja entregue com sucesso e atenda às expectativas dos usuários finais. Não apenas ajudando na identificação e correção de problemas, de forma proativa, mas também contribui para a satisfação do cliente e para a reputação da empresa no mercado.
+
+# DIA 06(13/05/24)
+
+O conteudo de hoje foi sobre alguns fundamentos do test de software, falando sobre **pirâmide de teste** , ciclo de desenvolvimento e também o de teste, onde no decorrer do planejamento do projeto, os testes vao andando junto, qual metologia , o tipo do teste, tecnicas...
+
+No video também foi falado sobre teste unitário , integração(encontrar defeitos e falhas em varias interfaces do software), e o teste E2E, que vai de ponta a ponta , simulando o ambiente real, para ser feita verificação do que era esperado do projeto.
+Se ele fez o cadastro do modo que era pra ser, se foi dada as informaçoes certas e assim por diante.
+
+# DIA 07(24/05/24)
+
+## Exercício prático::Exercitando SQL
+
+### Com base na tabela de Usuários:
+
+**1. Realizar uma consulta que conte o número de registros na tabela.;**
+```sql
+SELECT COUNT(*) AS total_usuarios FROM usuarios;
+```
+![imagem](https://ibb.co/nBqL3R5)
+<https://imgbox.com/nb5246hd>
+[imagem do exe](https://imgbox.com/nb5246hd)
+
+**2. Realizar uma consulta para encontrar o usuário com o id 10.**
+```sql
+SELECT * FROM usuarios WHERE id = 10;
+```
+
+**3. Realizar uma consulta para encontrar o usuário com o nome "Bruce Wayne".**
+```sql
+SELECT * FROM usuarios WHERE nome = 'Bruce Wayne';
+```
+
+**4. Realizar uma consulta para encontrar o usuário com o e-mail "ghost_silva@fantasma.com".**
+```sql
+SELECT * FROM usuarios WHERE email = 'ghost_silva@fantasma.com';
+```
+
+**5. Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com".**
+```sql 
+DELETE FROM usuarios WHERE email = 'peterparker@marvel.com'
+```
+
+### Com base na tabela de Produtos:
+
+**1.Realizar uma consulta que apresente produtos com descrição vazia;**
+```sql
+SELECT * FROM produtos WHERE descricao = ''
+```
+**2. Realizar uma consulta que apresente produtos com a categoria "games";**
+```sql
+SELECT * FROM produtos WHERE categoria = 'games''
+```
+
+**3. Realizar uma consulta que apresente produtos com preço "0";**
+```sql
+select * from produtos WHERE preco = 0
+```
+
+**4.Realizar uma consulta que apresente produtos com o preço maior que "100.00";**
+```sql
+select * from produtos WHERE preco > 100.00
+```
+
+**5.  Realizar uma consulta que apresente produtos com o preço entre "1000.00" e "2000.00";**
+```sql
+select * from produtos WHERE preco BETWEEN 1000.00 AND 2000.00
+```
+
+**6. Realizar uma consulta que apresente produtos em que o nome contenha a palavra "jogo";;**
+```sql
+SELECT * FROM produtos WHERE nome LIKE '%jogo%'
+```
