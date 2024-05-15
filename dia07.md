@@ -1,9 +1,7 @@
 # Exercício prático::Exercitando SQL
 
-**1. Realizar uma consulta que apresente produtos com descrição vazia;**
+**1. Realizar uma consulta que conte o número de registros na tabela.;**
 ```sql
 SELECT COUNT(*) AS total_usuarios FROM usuarios;
 ```
-![imagem][def]
-
-[def]: https://ibb.co/nBqL3R5
+![imagem](https://ibb.co/nBqL3R5)
