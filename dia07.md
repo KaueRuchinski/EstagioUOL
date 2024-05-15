@@ -23,4 +23,6 @@ SELECT * FROM usuarios WHERE email = 'ghost_silva@fantasma.com';
 **5. Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com".**
 ```sql
 DELETE FROM usuarios WHERE email = 'peterparker@marvel.com';
+
+**# Com base na tabela de Produtos, você deve:
 ```
