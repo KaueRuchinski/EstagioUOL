@@ -4,4 +4,6 @@
 ```sql
 SELECT COUNT(*) AS total_usuarios FROM usuarios;
 ```
-![imagem](https://ibb.co/nBqL3R5)
+![imagem][def]
+
+[def]: https://ibb.co/nBqL3R5
