@@ -91,13 +91,13 @@ A ISO/IEC 25010 é um padrão ISO para qualidade de software, disponibilizada em
 
 Utilizando a área de Administração como exemplo, o time pode gerar qualidade priorizando as tarefas mais importantes para a empresa. Para essa priorização pode ser utilizado o conceito da Matriz de Eisenhower. 
 
-**Importante e Urgente:** Falha no envio do arquivo de remessa de cobrança bancária
+`Importante e Urgente`: Falha no envio do arquivo de remessa de cobrança bancária
 
-**Importante e Não Urgente:** Ausência de uma informação em um relatório
+`Importante e Não Urgente`: Ausência de uma informação em um relatório
 
-**Urgente e Não Importante:** Responder a ligações irrelevantes 
+`Urgente e Não Importante`: Responder a ligações irrelevantes 
 
-**Não Urgente e Não Importante:** Sugestão de inclusão de informação em um recurso pouco utilizado 
+`Não Urgente e Não Importante`: Sugestão de inclusão de informação em um recurso pouco utilizado
 
 Utilizando o varejo como exemplo, o QA pode garantir que no período da Black Friday o produto não sofra com instabilidades e incompatibilidades relacionadas ao seu desempenho. 
 Conclui-se então que o QA em um projeto é fundamental para assegurar que o produto final atenda aos requisitos dos clientes, seja funcional, confiável e de alta qualidade. Ao estabelecer requisitos claros, planejar com antecedência, realizar testes e revisões regulares, envolver as partes interessadas, aprender com os erros e utilizar ferramentas de automação, a equipe de desenvolvimento pode garantir que o projeto seja entregue com sucesso e atenda às expectativas dos usuários finais. Não apenas ajudando na identificação e correção de problemas, de forma proativa, mas também contribui para a satisfação do cliente e para a reputação da empresa no mercado.
