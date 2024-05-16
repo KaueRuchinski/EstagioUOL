@@ -119,29 +119,32 @@ Se ele fez o cadastro do modo que era pra ser, se foi dada as informaçoes certa
 ```sql
 SELECT COUNT(*) AS total_usuarios FROM usuarios;
 ```
-![imagem](https://ibb.co/nBqL3R5)
-<https://imgbox.com/nb5246hd>
-[imagem do exe](https://imgbox.com/nb5246hd)
+![imagem](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/4eb58f7b-0d40-4fd7-a432-345c539b75e5)
 
 **2. Realizar uma consulta para encontrar o usuário com o id 10.**
 ```sql
 SELECT * FROM usuarios WHERE id = 10;
 ```
+![imagem](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/c8fb0c71-8f9d-4845-9700-3478981cf25b)
+
 
 **3. Realizar uma consulta para encontrar o usuário com o nome "Bruce Wayne".**
 ```sql
 SELECT * FROM usuarios WHERE nome = 'Bruce Wayne';
 ```
+![imagem](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/9d7a4526-5e4b-4e54-8199-880d28abed8f)
 
 **4. Realizar uma consulta para encontrar o usuário com o e-mail "ghost_silva@fantasma.com".**
 ```sql
 SELECT * FROM usuarios WHERE email = 'ghost_silva@fantasma.com';
 ```
+![imagem](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/2a010b56-d297-4544-8566-fdecaeebb927)
 
 **5. Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com".**
 ```sql 
 DELETE FROM usuarios WHERE email = 'peterparker@marvel.com'
 ```
+![imagem](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/212bcf68-de28-48d0-a8c0-bb4b2bb0766c)
 
 ### Com base na tabela de Produtos:
 
@@ -149,30 +152,37 @@ DELETE FROM usuarios WHERE email = 'peterparker@marvel.com'
 ```sql
 SELECT * FROM produtos WHERE descricao = ''
 ```
+![imagem](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/0b8776f5-5131-4b2b-a67f-7b0c7eeeeb08)
 **2. Realizar uma consulta que apresente produtos com a categoria "games";**
 ```sql
 SELECT * FROM produtos WHERE categoria = 'games''
 ```
+![imagem](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/b9c0c576-14ea-4b9a-a623-a1e1bd87c825)
+
 
 **3. Realizar uma consulta que apresente produtos com preço "0";**
 ```sql
 select * from produtos WHERE preco = 0
 ```
+![imagem](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/7a1a0269-78f9-4750-87a9-f2aa9ca96f79)
 
 **4.Realizar uma consulta que apresente produtos com o preço maior que "100.00";**
 ```sql
 select * from produtos WHERE preco > 100.00
 ```
+![imagem](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/e885015c-afe6-4f20-ae61-e4e180dc40a1)
 
 **5.  Realizar uma consulta que apresente produtos com o preço entre "1000.00" e "2000.00";**
 ```sql
 select * from produtos WHERE preco BETWEEN 1000.00 AND 2000.00
 ```
+![imagem](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/ad4c5bf3-1413-470e-85e8-29eca2c39d31)
 
 **6. Realizar uma consulta que apresente produtos em que o nome contenha a palavra "jogo";;**
 ```sql
 SELECT * FROM produtos WHERE nome LIKE '%jogo%'
 ```
+![imagem](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/f4affed0-ce88-441f-be07-c82bdbd33936)
 
 # DIA 08(15/05/24)
 
@@ -184,26 +194,31 @@ SELECT * FROM produtos WHERE nome LIKE '%jogo%'
 ```sql
 db.usuarios.count();
 ```
+![1](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/c5db9eb6-e8c7-4c77-8783-ef9867e951bd)
 
 ##### **2. Realizar uma consulta para alterar o usuário com o nome "Teste Start" para "Teste Finish".**
 ```sql
 db.usuarios.updateOne({ nome: "Teste Start" }, { $set: { nome: "Teste Finish"}})
 ```
+![2](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/3ba48ec3-741f-47b8-8916-3e194f8aea55)
 
 ##### **3. Realizar uma consulta para encontrar o usuário com o nome "Bruce Wayne".**
 ```sql
 db.usuarios.findOne({ nome: "Bruce Wayne" })
 ```
+![3](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/b44bf1ae-93e7-4b5a-ad3f-b1d4228c0284)
 
 ##### **4. Realizar uma consulta para encontrar o usuário com o e-mail "ghost_silva@fantasma.com".**
 ```sql
 db.usuarios.findOne({ email: "ghost_silva@fantasma.com" })
 ``` 
+![4](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/07ae10ef-7595-4d3e-bf0f-c9e0cd34044c)
 
 ##### **5. Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com".**
 ```sql
 db.usuarios.deleteOne({email : "peterparker@marvel.com" })
 ``` 
+![5](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/79e55153-38c6-42ae-bc73-2de405de7832)
 
 ### Com base nos **produtos** listados:
 
@@ -211,26 +226,31 @@ db.usuarios.deleteOne({email : "peterparker@marvel.com" })
 ```sql  
  db.produtos.find({ descricao : "" })
 ``` 
+![1 1](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/14cdfb8b-4f51-42ea-ab56-4fc78a8047a7)
 
 ##### **2 Realizar uma consulta que apresente produtos com a categoria "games";**
 ```sql 
 db.produtos.find({ categoria : "games" })
 ``` 
+![1 2](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/ccbb4887-ad11-4c40-a2e6-b880c744ce05)
 
 ##### **3 Realizar uma consulta que apresente produtos com preço "0";**
 ```sql 
 db.produtos.find({preco : 0 })
 ``` 
+![1 3](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/f67e26d3-b3b4-4afb-a88f-5242e2283a0b)
 
 ##### **4 Realizar uma consulta que apresente produtos com o preço maior que "100.00";**
 ```sql
 db.produtos.find({ preco : {$gt : 100.00 }})
 ```
+![1 4](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/8f3463fc-5fdc-4a52-b85f-7efd43342408)
 
 ##### **5 Realizar uma consulta que apresente produtos com o preço entre "1000.00" e "2000.00";**
 ```sql
 db.produtos.find({ preco : { $gt :  1000.00 , $lt : 2000.00}});
 ```
+![1 5](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/4cfbbb50-24fa-4f8a-9e5f-c306096a995f)
 
 ##### **6 Realizar uma consulta que apresente produtos em que o nome contenha a palavra "jogo".**
 Nao rodou, mas vou deixar o codigo
