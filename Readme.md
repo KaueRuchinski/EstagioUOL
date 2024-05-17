@@ -2,6 +2,19 @@ Olá esse vai ser o readme para o meu estágio da compass
 
 # EstagioUOL
 
+-[Dia01](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia01.md)
+-[Dia05](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia05.md)
+ -[Dia09](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia09.md)
+
+-[Dia02](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia02.md)
+-[Dia06](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia06.md)
+
+-[Dia03](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia03.md)
+-[Dia07](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia07.md)
+
+-[Dia04](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia04.md)
+-[Dia08](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia08.md)
+
 ### Estagio da Compass UOL - Sprint 01
 
 # DIA 01(06/05/24)
