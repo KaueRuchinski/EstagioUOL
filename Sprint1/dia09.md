@@ -86,3 +86,45 @@ Segue as abordagens mais comuns:
 - Realizar validação de links e remetentes
 - Descarte correto de documentos
 - Deixar o necessário em seu ambiente e bloqueio de tela
+
+## Módulo 4
+
+## Segurança em IA Generativa
+
+Será apresentado a forma mais segura para utilizar as tecnologias de inteligência artificial generativas e proteger os dados pessoais e empresariais da organização, bem como evitar o compartilhamento indevido de códigos e informações confidenciais.
+
+### O que é IA Generativa?
+
+Inteligência Artificial é um subcampo da IA que se concentra na criação de novos conteúdos, dados ou informações como texto, videos, audios e códigos.
+
+Os algoritmos da IA, sao capazes de aprender, com os dados que sao fornecidos a ela, assim saindo várias "saídas" diferente.
+
+### Ambiente e utilização de ferramentas IA
+
+Há tanto ferramentas pagas quanto gratuitas , é recomendado ler os contratos que são propostos, para saber como os dados que voce irá fornecer, como eles serão usados
+
+### Como proteger os dados e informações
+
+Quando você precisar de uma ajuda da IA tanto para melhorar ou agilizar o seu trabalho, é importante lembrar de proteger seus dados ou da sua empresa.
+
+- Remova dados pessoais, senhas que voce vai usar 
+- Trocar dados originais , como nomes, dados de algum cliente...
+
+### Controle mínimos de segurança
+
+As ferramentas de IA devem atender ao requisitos minimos de segurança como:
+
+- Controle tecnológico
+
+- Gestão de acessos
+
+- Monitoramento 
+
+- Documentação
+
+### Segue abaixo alguns processos: 
+![processos modulo 4](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/0b11ccdf-2680-4440-b778-22924434567d)
+
+## Abaixo segue o print com a nota do teste do curso:
+
+![nota cybersecurity](https://github.com/KaueRuchinski/EstagioUOL/assets/169190339/5b0c3e43-68c3-46d2-bce9-5b7bf5d1aab3)
