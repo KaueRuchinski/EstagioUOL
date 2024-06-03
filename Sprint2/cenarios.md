@@ -39,4 +39,17 @@ A busca de usuários poderiam ser automatizados para também ter um esforço a m
 4º Teste de Exclusão de usuários(DELETE)
 Na questão de exclusão de usuários, como é algo parecido em questao da facilidade , com o cadastro, a exclusão também deveria ser automatizada
 
+## Cenários mais importantes
+
+-1º Teste criação de usuários(Importância: Alta)
+
+2º Teste busca/lista de usuários(Importância: Media)
+
+3º Teste de edição de usuários(Importância: Media)
+
+4º Teste de Exclusão de usuários(Importância: Baixa)
+
+
+
+
  
