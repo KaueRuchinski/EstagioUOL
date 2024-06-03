@@ -47,7 +47,20 @@ Serão avaliados pelo status , se esta correto com o que se pede, e seu response
 
 Sera divulgado pelo github 
 
-### 10.Cronograma
+### Candidatos a Automação
+
+-1º Teste criação de usuários(POST)
+Testes de criação de usuários poderiam ser automatizados para poupar tempo
+
+2º Teste busca/lista de usuários(GET)
+A busca de usuários poderiam ser automatizados para também ter um esforço a menos
+
+4º Teste de Exclusão de usuários(DELETE)
+Na questão de exclusão de usuários, como é algo parecido em questao da facilidade , com o cadastro, a exclusão também deveria ser automatizada
+
+
+
+
 
 
 
