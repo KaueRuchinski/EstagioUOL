@@ -4,7 +4,7 @@ Olá esse vai ser o readme para o meu estágio da compass
 
 -[Dia01](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia01.md)
 -[Dia05](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia05.md)
- -[Dia09](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia09.md)
+-[Dia09](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia09.md)
 
 -[Dia02](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia02.md)
 -[Dia06](https://github.com/KaueRuchinski/EstagioUOL/blob/f6ffee87d311c1fcab2874c3cfa382282ec2ba84/Sprint1/dia06.md)
