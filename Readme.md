@@ -16,6 +16,8 @@ A seguir os conteúdos que serão abordados:
 
 Aqui vou deixar os links para o planejamento dessa sprint, dos cenários, mapa mental.
 
--[Planejamento]()
--[Cemários]()
+-[Planejamento](https://github.com/KaueRuchinski/EstagioUOL/blob/d40effb4c2ab1aa600f777f8bcfdb88894b8e91c/Sprint3/planejamento.md)
+
+-[Cenários](https://github.com/KaueRuchinski/EstagioUOL/blob/d40effb4c2ab1aa600f777f8bcfdb88894b8e91c/Sprint3/cen%C3%A1riosSprint3.md)
+
 -[Mapa]()
