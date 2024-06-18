@@ -5,4 +5,4 @@ No dia de hoje fizemos a migração das issues, bugs, tasks no git para o jira e
 
 Instalamos o QAlity test para uso nos projetos.
 
-Fazendo o vinculo dos itens , criando ciclo de testes.
+Fazendo o vinculo dos itens , criando ciclo de testes..
