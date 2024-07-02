@@ -199,25 +199,20 @@
 - CT07: Buscar carrinho específico pelo ID
 - CT08: Buscar carrinho inexistente pelo ID
 - CT09: Verificar paginação da lista de carrinhos
-
-## 3º Teste para buscar carrinho pelo ID (GET)
-
 - CT10: Buscar carrinho existente pelo ID
-- CT11: Buscar carrinho com ID inválido (formato incorreto)
-- CT12: Buscar carrinho inexistente pelo ID
 
 ## 4º Teste de excluir carrinho do produto no final da compra (DELETE)
 
-- CT13: Excluir carrinho existente após finalizar a compra
-- CT14: Excluir carrinho com ID inexistente
-- CT15: Excluir carrinho de produto já removido
+- CT11: Excluir carrinho existente após finalizar a compra
+- CT12: Excluir carrinho com ID inexistente
+- CT13: Excluir carrinho de produto já removido
 
 
 ## 5º Teste para exclusão de produtos, retornando produtos ao estoque (DELETE)
 
-- CT16: Excluir produtos de um carrinho existente, retornando produtos ao estoque
-- CT17: Excluir produtos de um carrinho com ID inexistente
-- CT18: Excluir produtos de um carrinho já finalizado
+- CT14: Excluir produtos de um carrinho existente, retornando produtos ao estoque
+- CT15: Excluir produtos de um carrinho com ID inexistente
+- CT16: Excluir produtos de um carrinho já finalizado
 
 ## Cenários mais importantes (revisar novamente)
 
