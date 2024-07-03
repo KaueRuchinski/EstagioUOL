@@ -1,5 +1,16 @@
 # EstagioUOL
 
+### Links dos Dias, planejamento e mapa mental
+
+- [Dia01e02](https://github.com/KaueRuchinski/EstagioUOL/blob/1a5481da044c571940b6ed2f38a75a202fd15985/Sprint4/Dia01e02.md)
+- [Dia03](https://github.com/KaueRuchinski/EstagioUOL/blob/1a5481da044c571940b6ed2f38a75a202fd15985/Sprint4/Dia03.md)
+- [Dia04](https://github.com/KaueRuchinski/EstagioUOL/blob/1a5481da044c571940b6ed2f38a75a202fd15985/Sprint4/Dia04.md)
+- [Planejamento](https://github.com/KaueRuchinski/EstagioUOL/blob/1a5481da044c571940b6ed2f38a75a202fd15985/Sprint4/planejamentoSP04.md)
+- [Cenários](https://github.com/KaueRuchinski/EstagioUOL/blob/1a5481da044c571940b6ed2f38a75a202fd15985/Sprint4/cen%C3%A1riosSprint4.md)
+- [Mapa Mental](https://github.com/KaueRuchinski/EstagioUOL/blob/1a5481da044c571940b6ed2f38a75a202fd15985/Sprint4/mapaMentalSP04.md)
+
+
+
 ### Sprint 04
 
     Nessa sprint foram desenvolvidos exercicíos em JS, onde será mostrado ao longo do README como recriá-los. Também foi houve um aprofundamento na questão de testes explorátorios.
@@ -146,6 +157,32 @@ describe('Testes de subtração', () => {
 
 em caso de erro, temos que ajustar o erro que esta sendo falado
 
+### Calculadora
+
+No projeto que foi nos dado para fazer, precisavamos fazer uma calculadora, e fazer alguns testes.
+
+A  minha classe Calculadora implementa as seguintes funções:
+
+- soma(a, b): Retorna a soma de a e b.
+- sub(a, b): Retorna a subtração de a por b.
+- trajetoriaBola(velocidadeInicial, alturaInicial): Calcula o alcance efetivo de uma bola lançada com uma certa velocidade inicial e altura inicial.
+- areaDecagono(lado): Calcula a área de um decágono regular dado o comprimento do lado.
+
+Para encontrar o arquivo da calculadora , segue os links abaixo:
+
+-[CaculadoraSpec](https://github.com/KaueRuchinski/EstagioUOL/blob/1a5481da044c571940b6ed2f38a75a202fd15985/test/calculadora.spec.js)
+
+-[calculadora.js](https://github.com/KaueRuchinski/EstagioUOL/blob/1a5481da044c571940b6ed2f38a75a202fd15985/src/Calculadora.js)
+
+É bom de ter o Node.js instalado. Em seguida, instale Mocha e Chai:
+    
+    npm install mocha chai
+
+Se tudo estiver configurado corretamente, você verá os resultados dos testes indicando se passaram ou falharam.
+
+Para ver se os testes estão funcionando 
+
+    npm test
 
 ### Autor
 
