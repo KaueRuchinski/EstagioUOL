@@ -33,3 +33,27 @@ Os diferentes tipos de testes de performance são adequados para diferentes proj
 Logo após foi passado um curso sobre JMeter 
 
 Irei fazer um resumo mais aprofundado mais para frente
+
+## Ordem de fluxo de execução 
+
+- Elementos de configuração
+
+    **↓**
+
+- Pré Processadores
+
+    **↓**
+
+- Timers
+
+    **↓**
+
+- Pós Processadores
+
+    ↓
+
+- Assertions
+
+    ↓
+
+- Ouvintes(listeners)
