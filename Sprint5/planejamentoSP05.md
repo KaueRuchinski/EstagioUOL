@@ -1,5 +1,16 @@
 ## Planejamento dos testes
 
+### Links para cada teste de performance
+
+- [Planejamento](https://github.com/KaueRuchinski/EstagioUOL/blob/aa8cc1d3c8a4ba8560b29940207a7f30972a8343/Sprint5/planejamentoSP05.md#planejamento-testes-de-performance)
+
+    - [Login](https://github.com/KaueRuchinski/EstagioUOL/blob/aa8cc1d3c8a4ba8560b29940207a7f30972a8343/Sprint5/planejamentoSP05.md#casos-de-testes-de-performance-para-rota-login)
+
+    - [Usuarios](https://github.com/KaueRuchinski/EstagioUOL/blob/aa8cc1d3c8a4ba8560b29940207a7f30972a8343/Sprint5/planejamentoSP05.md#teste-de-performance-usuarios)
+
+    - [Produtos](https://github.com/KaueRuchinski/EstagioUOL/blob/aa8cc1d3c8a4ba8560b29940207a7f30972a8343/Sprint5/planejamentoSP05.md#casos-de-testes-de-performance-para-rota-produtos)
+
+    - [Carrinhos](https://github.com/KaueRuchinski/EstagioUOL/blob/aa8cc1d3c8a4ba8560b29940207a7f30972a8343/Sprint5/planejamentoSP05.md#casos-de-testes-de-performance-para-rota-carrinhos)
 
 ### - Funcionalidade do ServeRest Usuários, Produtos e Login
 
@@ -214,9 +225,7 @@ Error: 0.00%
 
 - Resultado obtido: [Preencher após o teste]
 ```
-
-![alt text](image-2.png)
-
+<a href="teste-resistencia.png"><img src="teste-resistencia.png" width="700" height="450" alt="eu-Copia" border="0"> <></a>
 
 ### Teste de Concorrência
 ```
@@ -232,6 +241,8 @@ Error: 0.00%
 
 - Resultado obtido: [Preencher após o teste]
 ```
+<a href="teste_concorrencia.png"><img src="teste_concorrencia.png" width="700" height="450" alt="eu-Copia" border="0"> <></a>
+
 ### Teste de Capacidade
 ```
 - Especificações do teste: Avaliar quantos usuários ou transações o sistema suporta mantendo uma performance estável.
@@ -246,6 +257,8 @@ Error: 0.00%
 
 - Resultado obtido: [Preencher após o teste]
 ```
+<a href="teste_capacidade.png"><img src="teste_capacidade.png" width="700" height="450" alt="eu-Copia" border="0"> <></a>
+
 ========================================================================================================================================
 
 # Casos de Testes de Performance para Rota `/login`
