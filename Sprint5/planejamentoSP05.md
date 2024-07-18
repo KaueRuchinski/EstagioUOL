@@ -2,7 +2,7 @@
 
 ### Links para cada teste de performance
 
-- [Planejamento](https://github.com/KaueRuchinski/EstagioUOL/blob/a7785dcc39ad7e17f7498136f0b038ae9e843476/Sprint5/planejamentoSP05.md)
+- [Planejamento](https://github.com/KaueRuchinski/EstagioUOL/blob/3690a5e0c8c87169f87b57902b9bd93dc50250a0/Sprint5/planejamentoSP05.md)
 
     - [Login](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint5/Sprint5/planejamentoSP05.md#casos-de-testes-de-performance-para-rota-login)
 
@@ -10,7 +10,7 @@
 
     - [Produtos](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint5/Sprint5/planejamentoSP05.md#casos-de-testes-de-performance-para-rota-produtos)
 
-    - [Carrinhos](https://github.com/KaueRuchinski/EstagioUOL/blob/aa8cc1d3c8a4ba8560b29940207a7f30972a8343/Sprint5/planejamentoSP05.md#casos-de-testes-de-performance-para-rota-carrinhos)
+    - [Carrinhos](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint5/Sprint5/planejamentoSP05.md#casos-de-testes-de-performance-para-rota-carrinhos)
 
     .
 
