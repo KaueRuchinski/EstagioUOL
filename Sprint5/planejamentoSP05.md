@@ -2,13 +2,13 @@
 
 ### Links para cada teste de performance
 
-- [Planejamento](https://github.com/KaueRuchinski/EstagioUOL/blob/aa8cc1d3c8a4ba8560b29940207a7f30972a8343/Sprint5/planejamentoSP05.md#planejamento-testes-de-performance)
+- [Planejamento](https://github.com/KaueRuchinski/EstagioUOL/blob/a7785dcc39ad7e17f7498136f0b038ae9e843476/Sprint5/planejamentoSP05.md)
 
-    - [Login](https://github.com/KaueRuchinski/EstagioUOL/blob/aa8cc1d3c8a4ba8560b29940207a7f30972a8343/Sprint5/planejamentoSP05.md#casos-de-testes-de-performance-para-rota-login)
+    - [Login](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint5/Sprint5/planejamentoSP05.md#casos-de-testes-de-performance-para-rota-login)
 
-    - [Usuarios](https://github.com/KaueRuchinski/EstagioUOL/blob/aa8cc1d3c8a4ba8560b29940207a7f30972a8343/Sprint5/planejamentoSP05.md#teste-de-performance-usuarios)
+    - [Usuarios](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint5/Sprint5/planejamentoSP05.md#teste-de-performance-usuarios)
 
-    - [Produtos](https://github.com/KaueRuchinski/EstagioUOL/blob/aa8cc1d3c8a4ba8560b29940207a7f30972a8343/Sprint5/planejamentoSP05.md#casos-de-testes-de-performance-para-rota-produtos)
+    - [Produtos](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint5/Sprint5/planejamentoSP05.md#casos-de-testes-de-performance-para-rota-produtos)
 
     - [Carrinhos](https://github.com/KaueRuchinski/EstagioUOL/blob/aa8cc1d3c8a4ba8560b29940207a7f30972a8343/Sprint5/planejamentoSP05.md#casos-de-testes-de-performance-para-rota-carrinhos)
 
@@ -355,38 +355,82 @@ Error: 0.00%
 
 ## Teste de Carga
 
-### Cenário 1: Cadastro de Produtos com Carga Crescente
-- **Especificações do teste:** Avaliar como o sistema lida com níveis crescentes de carga.
-- **Usuários:** Escalonar de 500 usuários simultâneos.
-- **Duração:** 4 minutos
-- **Ramp-up:** 35 segundos
-- **Passos:**
+### Cenário 1:Teste de Carga 
+- Especificações do teste: Avaliar como o sistema lida com níveis crescentes de carga.
+- Usuários: Escalonar 500 usuários simultâneos.
+- Duração: 10 minutos
+- Ramp-up: 60 segundos
 
-- **Resultado esperado:** A API deve manter a estabilidade e um tempo de resposta aceitável.
-- **Resultado obtido:** [Preencher após o teste]
+
+- Resultado esperado: A API deve manter a estabilidade e um tempo de resposta aceitável.
+- Resultado obtido: [Preencher após o teste]
 
 ## Teste de Estresse
 
-### Cenário 2: Cadastro de Produtos sob Estresse
-- **Especificações do teste:** Verificar como a API lida quando seus limites são ultrapassados.
-- **Usuários:** 600 até o sistema falhar.
-- **Duração:** Até a falha
-- **Ramp-up:** 90 segundos
-- **Passos:**
+### Cenário 2: Teste de  Estresse
+- Especificações do teste: Verificar como a API lida quando seus limites são ultrapassados.
+- Usuários: Começar com 650 usuários
+- Duração: Até a falha
+- Ramp-up: 45 segundos
 
-- **Resultado esperado:** Identificar o ponto de falha e os principais gargalos.
-- **Resultado obtido:** [Preencher após o teste]
+
+- Resultado esperado: Identificar o ponto de falha e os principais gargalos.
+- Resultado obtido: [Preencher após o teste]
 
 ## Teste de Escalabilidade
 
-### Cenário 3: Cadastro de Produtos com Escalabilidade
-- **Especificações do teste:** Incrementar em 20% o limite máximo de usuários tanto para uso contínuo quanto durante os picos.
-- **Usuários:** 500 usuários.
-- **Duração:** 10 minutos
-- **Ramp-up:** 50 segundos
-- **Passos:**
-  1. Configurar um Test Plan no JMeter com um Thread Group.
-  2. Definir o número de threads (usuários) começando com 100 e aumentar
+### Cenário 3: Teste de Escalabilidade
+- Especificações do teste: Incrementar em 20% o limite máximo de usuários tanto para uso contínuo quanto durante os picos.
+- Usuários: 600 usuários.
+- Duração: 5 minutos
+- Ramp-up: 80 segundos
+
+- Resultado esperado: A API deve suportar o aumento de carga sem degradação significativa.
+- Resultado obtido: [Preencher após o teste]
+
+## Teste de Pico
+
+### Cenário 4: Teste de Pico
+- Especificações do teste: Analisar a capacidade da API de lidar com súbitas cargas.
+- Usuários: 500 usuários de repente.
+- Duração: 4 minutos
+- Ramp-up: 5 segundos
+
+- Resultado esperado: A API deve lidar com os picos sem falhas críticas.
+- Resultado obtido: [Preencher após o teste]
+
+## Teste de Resistência
+
+### Cenário 5: Teste de Resistência
+- Especificações do teste: Avaliar o desempenho com 500 usuários realizando requisições durante o período de 2 minutos.
+- Usuários: 500
+- Duração: 2 minutos
+- Ramp-up: 60 segundos
+
+- Resultado esperado: Manter estabilidade e um tempo de resposta aceitável.
+- Resultado obtido: [Preencher após o teste]
+
+## Teste de Concorrência
+
+### Cenário 6: Teste de Concorrência
+- Especificações do teste: Verificar o impacto de vários usuários manipulando produtos ao mesmo tempo.
+- Usuários: 400 usuários tentando manipular produtos simultaneamente.
+- Duração: 3 minutos
+- Ramp-up: 30 segundos
+
+- Resultado esperado: A API deve suportar as operações de produtos simultâneas sem falhas.
+- Resultado obtido: [Preencher após o teste]
+
+## Teste de Capacidade
+
+### Cenário 7: Teste de Capacidade Máxima
+- Especificações do teste: Avaliar quantos usuários ou transações o sistema suporta mantendo uma performance estável.
+- Usuários: 400 usuários.
+- Duração: 6 minutos
+- Ramp-up: 90 segundos
+
+- Resultado esperado: Identificar o limite máximo de capacidade do sistema.
+- Resultado obtido: [Preencher após o teste]
 
   ================================================================================================================
 
