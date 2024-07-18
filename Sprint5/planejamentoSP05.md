@@ -12,6 +12,8 @@
 
     - [Carrinhos](https://github.com/KaueRuchinski/EstagioUOL/blob/aa8cc1d3c8a4ba8560b29940207a7f30972a8343/Sprint5/planejamentoSP05.md#casos-de-testes-de-performance-para-rota-carrinhos)
 
+    .
+
 ### - Funcionalidade do ServeRest Usuários, Produtos e Login
 
 
