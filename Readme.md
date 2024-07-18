@@ -60,8 +60,6 @@ Enzo Rossi, Daniel Pontes, Ricardo Neckel, Leticia Ribeiro
 
     Kauê Humenhuk Ruchinski
 
-<a href="https://ibb.co/8M325rD"><img src="https://i.ibb.co/qBG9sNM/eu-Copia.jpg" width="160" height="130" alt="eu-Copia" border="0"> <></a>
-
 ### Ajuda
 
 Foram usadas como uma forma de ajuda e de correção o Chatgpt,Gemini
