@@ -55,4 +55,3 @@ export default function(data) {
     console.log(req.body);
     sleep(1);
 }
- 

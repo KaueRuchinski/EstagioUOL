@@ -46,8 +46,8 @@ export default function(){
 
  
  export const options = {
-    vus: 10,
-    duration: '5s',
+    vus: 500,
+    duration: '15s',
     thresholds: {
         http_req_failed: ['rate<0.05'],
         http_req_duration: ['p(95)<500'] // 500ms

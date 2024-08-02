@@ -1,14 +1,15 @@
-
 import http from 'k6/http';
 import { check, sleep } from 'k6';
 import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
 
 export const options = {
-    stages: [
-      { duration: '5s', target: 50 },
-      { duration: '4s', target: 700}, // Inicie com 0 VUs e aumente para 20 VUs em 10 segundos
-    ],
-  };
+    vus: 500,
+    duration: '25s',
+    thresholds: {
+        http_req_failed: ['rate<0.05'],
+        http_req_duration: ['p(95)<2000'], 
+    },
+};
 
 export function handleSummary(data) {
     return {
@@ -17,7 +18,7 @@ export function handleSummary(data) {
 }
 
 export default function () {
-    const BASE_URL = 'http://localhost:3000'; // Verifique se é o URL correto
+    const BASE_URL = 'http://localhost:3000';
 
     const user = {
         nome: "Fulano da Silva",

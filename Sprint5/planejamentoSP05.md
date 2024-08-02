@@ -182,7 +182,7 @@ Especificações do teste: Verificar como a API lida quando seus limites são ul
 
 - Usuários: 600 usuarios
 
-- Duração: 15 minutos
+- Duração: 2 minutos
 
 - Ramp-up: 25 segundos
 
