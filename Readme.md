@@ -24,7 +24,7 @@ No caso do Windows você ira, e optar pelo Chocolatey, como será feito nessa sp
 
 2. Clique na aba **INDIVIDUAL**
 
-    <a href="INDIVIDUAL.png"><img src="INDIVIDUAL.png" width="600" height="150" alt="eu-Copia" border="0"> </a>
+   ![alt text](Sprint6/INDIVIDUAL.png)
 
 3. Copie o seguinte comando:
     ```

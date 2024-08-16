@@ -90,3 +90,14 @@ vus: 500,
 
 
 ## Teste Produto
+
+### Teste de carga
+
+### Teste Pico
+
+### Teste Escalabilidade
+
+### Teste Estresse
+
+### Teste concorrencia
+

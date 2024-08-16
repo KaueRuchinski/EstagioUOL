@@ -1,3 +1,5 @@
+import http from 'k6/http';
+
 
 export let createUser = () => ({
     nome: "Fulano da Silva",

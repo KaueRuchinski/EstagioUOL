@@ -1,31 +1,68 @@
 import http from 'k6/http';
-import { Trend, Rate, Counter } from 'k6/metrics';
-import { sleep } from 'k6';
-import { check,fail } from 'k6';
+import { check, sleep } from 'k6';
+import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
+import { createUser } from './utils';
 
-export let GetCustomerDuration = new Trend('get_customer_duration');
-export let GetCustomerFailRate= new Trend('get_customer_fail_rate');
-export let GetCustomerSuccessRate= new Trend('get_customer_success_rate');
-export let GetCustomerReqs= new Trend('get_customer_reqs');
+export const options = {
+    vus: 10,
+    duration: '10s',
+    thresholds: {
+        http_req_failed: ['rate<0.05'],
+        http_req_duration: ['p(95)<2000'], 
+    },
+};
 
-export default function(){
+export function handleSummary(data) {
+    return {
+        "summary.html": htmlReport(data),
+    };
+}
 
-    let response = http.get('coloca localhost aq');
+export function setup() {
+    let user = createUser();
+    const req = http.post('http://localhost:3000/usuarios', JSON.stringify(user), {
+        headers: { 'Content-Type': 'application/json' }
+    });
 
-    GetCustomerDuration.add(response.timings.duration);
-    GetCustomerReqs.add(1);
-    GetCustomerFailRate.add(response.status == 0 || response.status > 399);
-    GetCustomerSuccessRate.add(response.status < 399); // ou 200 direto
-    // mais completo seria (response.status != 0 && response.status < 399);
+    const response = JSON.parse(req.body);
+    const token = response.token;
+    const userId = response._id;
 
-    let durationMsg = 'Maximo de duração da minha requisição $(5000/1000)s';
-    if(!check(response,{
-        'maximo de duração' :  (r) => r.timings.durations < 5000,
+    return {
+        user,
+        token,
+        userId
+    };
+}
 
-    })){
-        fail(durationMsg);
-    }  
+export default function (data) {
+    const BASE_URL = 'http://localhost:3000';
+
+    const user = {
+        nome: "Fulano da Silva",
+        email: `user_${Math.random().toString(36).substring(2)}@qa.com.br`,
+        password: "teste",
+        administrador: "true",
+    };
+
+    const headers = { 'Content-Type': 'application/json' };
+
+    const res = http.post(`${BASE_URL}/usuarios`, JSON.stringify(user), { headers });
+
+    console.log(`Status: ${res.status}`);
+    console.log(`Response: ${res.body}`);
+
+    check(res, { 'status é 201': (r) => r.status === 201 });
 
     sleep(1);
+}
 
+export function teardown(data) {
+    const BASE_URL = 'http://localhost:3000';
+    const headers = { 'Authorization': `Bearer ${data.token}` };
+
+    const deleteUser = http.del(`${BASE_URL}/usuarios/${data.userId}`, null, { headers });
+
+    console.log(`Delete status: ${deleteUser.status}`);
+    check(deleteUser, { 'usuário deletado': (r) => r.status === 200 });
 }
