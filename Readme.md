@@ -3,14 +3,15 @@
 # Bem vindo, esse é o readme da Sprint 06
 ## Sprint 06
 
-	Bem vindo ao readme da Sprint 6, nessa sprint tivemos um foco no k6,um framework de código aberto.
+	Bem vindo ao readme da Sprint 7, nessa sprint tivemos um foco no k6,um framework de código aberto.
 
 Segue abaixo a lista de conteúdos:
 
-- Primeiro contato com K6
-- Thresholds
-- Validações com K6
-- K6 CLI
+- Estrutura de projeto com K6
+- Ciclo de vida dos testes
+- Camada de Services (BaseService, BaseRest)
+- Centralizando Checks
+- Constantes com constants.js
 
 ## Instalação
 
@@ -41,16 +42,37 @@ E rode o seguinte comando:
 ```
 choco install k6
 ```
+6. Para importar o meus códigos e usa-los no seu computador
+ - Você pode tanto clonar:
+```
+	git clone https://github.com/KaueRuchinski/EstagioUOL.git
+```
+- Ou apenas baixar o arquivo em ZIP e extrai-lo
 
+  No intervalo disso tudo, abra o prompt de comando(como Adm de preferencia)
+  e rode o seguinte codigo
+  ```
+  	npx serverest@latest
+    ```
+  Dessa forma, voce irá rodar a API que iremos usar, localmente na sua maquina
+
+  7. Quando entrar com vscode , e quiser rodar algum teste
+  8. Va até o rota que preferir
+  9. Clique com botao direito no arquivo
+  10. Vá em Open Terminal
+  11. Escreva no terminal
+   ```   	
+     k6 run
+    ```
+  12.Em seguida você pode digitar o arquivo, ou apertar a tecla TAB até o arquivo desejado aparecer
+
+  13. Agora só apertar enter e rodar o teste
+      
 ## Objetivos dos Testes:
 
 Avaliar o nivel de performance da API
 
 ### Segue os links para os dias,Planejamento e para Baixar o JMeter:
-
-- [Dia03](https://github.com/KaueRuchinski/EstagioUOL/blob/42fc3ca2b49dccd46a12f1e2fa9bbaeddce2ac3c/Sprint6/Dia03.md)
-
-- [Dia04](https://github.com/KaueRuchinski/EstagioUOL/blob/42fc3ca2b49dccd46a12f1e2fa9bbaeddce2ac3c/Sprint6/Dia04.md)
 
 - [K6](https://k6.io/docs/get-started/installation/)
 
