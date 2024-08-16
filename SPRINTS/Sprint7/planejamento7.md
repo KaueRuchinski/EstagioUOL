@@ -107,6 +107,8 @@ Configurações de Hardware:
 
 Serão planejados os 7 tipos de testes para cada rota
 
+- [Login](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint7/SPRINTS/Sprint7/planejamento7.md#casos-de-testes-de-performance-para-rota-login)
+
 # Teste de Performance `/usuarios`
 O objetivo é que a API consiga lidar com ao menos 20 requisições simultâneas, considerando uma avaliação dentro de uma janela de 2-5 minutos para a avaliação. 
 
@@ -218,6 +220,8 @@ Error: 0.00%
 
 ========================================================================================================================================
 
+- [Produtos](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint7/SPRINTS/Sprint7/planejamento7.md#casos-de-testes-de-performance-para-rota-produtos)
+
 # Casos de Testes de Performance para Rota `/login`
 
 ## Teste de Carga
@@ -298,6 +302,7 @@ Error: 0.00%
 - **Resultado obtido:** [Preencher após o teste]
 
 ==================================================================================================================
+- [Carrinhos](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint7/SPRINTS/Sprint7/planejamento7.md#casos-de-testes-de-performance-para-rota-carrinhoss)
 
 # Casos de Testes de Performance para Rota `/produtos`
 
