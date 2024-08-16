@@ -1,7 +1,7 @@
 # EstagioUOL
 
-# Bem vindo, esse é o readme da Sprint 06
-## Sprint 06
+# Bem vindo, esse é o readme da Sprint 07
+## Sprint 07
 
 	Bem vindo ao readme da Sprint 7, nessa sprint tivemos um foco no k6,um framework de código aberto.
 
