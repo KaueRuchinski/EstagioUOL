@@ -76,7 +76,7 @@ Avaliar o nivel de performance da API
 
 - [K6](https://k6.io/docs/get-started/installation/)
 
-- [Planejamento](https://github.com/KaueRuchinski/EstagioUOL/blob/3690a5e0c8c87169f87b57902b9bd93dc50250a0/Sprint5/planejamentoSP05.md)
+- [Planejamento](https://github.com/KaueRuchinski/EstagioUOL/blob/58c7290190cc989b0ea43604e8eb30d9bad94c15/SPRINTS/Sprint7/planejamento7.md)
 
 
 ### Agradecimentos:
