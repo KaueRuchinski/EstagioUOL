@@ -25,7 +25,8 @@ No caso do Windows você ira, e optar pelo Chocolatey, como será feito nessa sp
 
 2. Clique na aba **INDIVIDUAL**
 
-    <a href="INDIVIDUAL.png"><img src="INDIVIDUAL.png" width="600" height="150" alt="eu-Copia" border="0"> </a>
+    ![image](https://github.com/user-attachments/assets/b2813d2b-8276-4ed0-83f6-47a8bc63f0da)
+
 
 3. Copie o seguinte comando:
     ```
