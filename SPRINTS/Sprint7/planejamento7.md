@@ -4,10 +4,10 @@
 
 - [Planejamento](https://github.com/KaueRuchinski/EstagioUOL/blob/3690a5e0c8c87169f87b57902b9bd93dc50250a0/Sprint7/planejamento7.md)
 
-    - [Login](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint7/SPRINTS/Sprint7/planejamento7.md#casos-de-testes-de-performance-para-rota-login)
-
     - [Usuarios](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint7/SPRINTS/Sprint7/planejamento7.md#teste-de-performance-usuarios)
-
+    
+    - [Login](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint7/SPRINTS/Sprint7/planejamento7.md#casos-de-testes-de-performance-para-rota-login)
+  
     - [Produtos](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint7/SPRINTS/Sprint7/planejamento7.md#casos-de-testes-de-performance-para-rota-produtos)
 
     - [Carrinhos](https://github.com/KaueRuchinski/EstagioUOL/blob/pb_sprint7/SPRINTS/Sprint7/planejamento7.md#casos-de-testes-de-performance-para-rota-carrinhoss)
